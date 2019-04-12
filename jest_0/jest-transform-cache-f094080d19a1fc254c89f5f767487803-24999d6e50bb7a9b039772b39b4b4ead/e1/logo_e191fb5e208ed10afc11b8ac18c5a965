@@ -1,0 +1,15 @@
+4e7205ed6cdc827f1b0c5cee4be61ebe
+const React = require('react');
+      module.exports = {
+        __esModule: true,
+        default: "logo.svg",
+        ReactComponent: React.forwardRef((props, ref) => ({
+          $$typeof: Symbol.for('react.element'),
+          type: 'svg',
+          ref: ref,
+          key: null,
+          props: Object.assign({}, props, {
+            children: "logo.svg"
+          })
+        })),
+      };
